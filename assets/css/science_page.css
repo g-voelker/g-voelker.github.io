@@ -49,6 +49,7 @@ img.c50 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    max-width: 600px;
 }
 
 img.c75 {
@@ -56,8 +57,13 @@ img.c75 {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    max-width: 600px;
 }
 
 img.c100 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+    max-width: 600px;
 }
