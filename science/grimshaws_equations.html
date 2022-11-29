@@ -9,6 +9,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	</head>
 	<body>
-    <h1>Grimshaw's Modulation Equations</h1>
+    <p>In order to simulate the dynamics of internal gravity waves in the atmosphere we make use of Grimshaw's modulation equations. These can be found using a WKBJ multi-scale ansatz to find a special solution of the compressible Euler equations (e.g. Achatz et al. 2010; Achatz et al. 2017). One thus finds the evolution of a wave with a position, \(\mathbf{r}_w\), and a wave vector, \(\mathbf{k}\), to be described by the following set of equations:</p>
+    <p>
+        \[
+        \begin{align}
+            \omega(\mathbf{r}, t) &= \Omega(\mathbf{r}, \mathbf{k}, t) \\
+                &= \mathbf{k}\cdot\mathbf{u}(\mathbf{r}, t) + \sqrt{\frac{f^2(\mathbf{r})m^2 + N^2(\mathbf{r}, t)(k^2 + l^2)}{k^2 + l^2 + m^2}},\\
+            (\partial_t + \mathbf{c}_g\cdot\nabla_{\mathbf{r}})\mathbf{k} &= \dot{\mathbf{k}} = -\nabla_{\mathbf{x}}\Omega, \\
+            (\partial_t + \mathbf{c}_g\cdot\nabla_{\mathbf{r}})\mathbf{r}_w &= \dot{\mathbf{r}}_w = \nabla_{\mathbf{k}}\Omega.
+        \end{align}
+        \]
+    </p>
+    <p> Where the group velocity is defined as \(\mathbf{c}_g = \nabla_{\mathbf{k}}\Omega\). Note that the gradient terms of the right hand comprise metric terms when using the spherical coordinate system as denoted by Hasha et al. (2008). The wave action equation including dissipation may then be written in phase space as follows (c.f. Muraschko et al. 2015):</p>
+    <p>
+        \[
+        \begin{align}
+            0 &= \partial_t\mathcal{N} + \nabla_\mathbf{r}\cdot(\mathbf{c}_g\mathcal{N}) + \nabla_\mathbf{k}\cdot(\dot{\mathbf{k}}\mathcal{N})
+        \end{align}
+        \]
+        with the phase space wave action density \(\mathcal{N} = \mathcal{N}(\mathbf{r}, \mathbf{k}, t)\).
+    </p>
+<!--
+    ToDo: add evolution of mean flow
+-->
     </body>
 </html>
