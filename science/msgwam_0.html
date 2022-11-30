@@ -10,6 +10,19 @@
         <link rel="stylesheet" href="../assets/css/science_page.css" />
     </head>
     <body>
-    
+	<p>In the phase space representation the wave action density is a field over the physical coordinates, \(\mathbf{x}\), and the wave numbers \(\mathbf{k}\). To efficiently solve the wave action dynamics we represent the wave action density in terms of Lagrangian ray volumes (c.f. Muraschko et al. 2015). One important property of the wave is the conservation of phase space volume as follows
+	\[
+	\begin{align}
+            0 &= \nabla_{\mathbf{X}}\cdot\mathbf{c}_g + \nabla_\mathbf{k}\cdot\dot{\mathbf{k}}.
+        \end{align}
+	\]
+	We then approximate the phase space wave action density as small volumes each formed around a carrier ray which evolves according to the modulation equations.</p>
+	<figure>
+            <img class="c100" src="images/ray_geometry.png" alt="A diagram showing the evolution of ray volumes approximating a conserved phase space volume.">
+            <figcaption>
+		Fig. 2: Lagrangian ray volumes may change their position in phase space (here: m-z space). While they may stretch or compress their total phase space volume is conserved. Due to their numerical representation they may overlap or drift apart. Freely after Fig. 4 of Muraschko et al. (2015).
+	    </figcaption>
+        </figure>
+	<p>Due to the approximation as discrete rectangular volumes ray volumes may overlap or drift apart during the modulated evolution. Their effect on the mean flow may then be integrated in wave number space and projected as described below.</p>
     </body>
 </html>
