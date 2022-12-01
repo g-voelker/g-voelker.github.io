@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
+@import url("source-sans-pro.css");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 
     body, input, textarea, select {
         font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 450;
+        font-weight: 400;
         color: #000;
         font-size: 12pt;
         line-height: 1.75em;
