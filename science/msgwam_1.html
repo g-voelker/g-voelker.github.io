@@ -10,11 +10,11 @@
         <link rel="stylesheet" href="../assets/css/science_page.css" />
     </head>
     <body>
-	<p>The freely propagating Lagrangian ray volumes describing the wave may be distributed randomly in phase space (Fig. 3). In order to derive the mean-flow impact of the waves one may integrate over all wave numbers and then estimate the wave action at the desired location.</p>
+	<p>The freely propagating Lagrangian ray volumes describing the wave may be distributed randomly in phase space (Fig. 3). To derive the mean-flow impact of the waves one may integrate over all wave numbers and then estimate the wave action at the desired location.</p>
 	<figure>
             <img class="c50" src="images/ray_projection.png" alt="A diagram showing the projection of the Lagrangien ray volumes onto the model grid.">
             <figcaption>
-		Fig. 3: The Lagrangian ray volumes may be freely distributed in phase space. Through integration in pjase space and averaging in physical space they are coupled to the model grid. Freely after Fig. 4 of Muraschko et al. (2015).
+		Fig. 3: The Lagrangian ray volumes may be freely distributed in phase space. Through integration in phase space and averaging in physical space they are coupled to the model grid. Freely after Fig. 4 of Muraschko et al. (2015).
 	    </figcaption>
         </figure>
 	<p>Here we implement the procedure into the finite volume model UA-ICON and therefore require cell averaged flux divergences or equivalently the fluxes across the cell boundaries. To estimate the latter (say at height \(z_n\), compare Fig. 3) and at the same time reduce the model noise we average the wave fluxes, that is integrate the corresponding ray volume properties, over the staggered cell around the cell boundary at hand (in this case \(z\in[z_{n-\frac{1}{2}}, z_{n+\frac{1}{2}}]\)).</p>

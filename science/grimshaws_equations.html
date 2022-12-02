@@ -4,13 +4,13 @@
 
 <html>
     <head>
-		<title>Grimshaw's Modulation Equations</title>
+		<title>The Bretherton-Grimshaw Modulation Equations</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="../assets/css/science_page.css" />
 	</head>
 	<body>
-    <p>In order to simulate the dynamics of internal gravity waves in the atmosphere we make use of Grimshaw's modulation equations. These can be found using a WKBJ multi-scale ansatz to find a special solution of the compressible Euler equations (e.g. Achatz et al. 2010; Achatz et al. 2017). One thus finds the evolution of a wave with a position, \(\mathbf{r}_w\), and a wave vector, \(\mathbf{k}\), to be described by the following set of equations:</p>
+    <p>In order to simulate the dynamics of internal gravity waves in the atmosphere we make use of the Bretherton-Grimshaw modulation equations. These can be found using a WKBJ multi-scale ansatz to find a special solution of the compressible Euler equations (e.g. Achatz et al. 2010; Achatz et al. 2017). One thus finds the evolution of a wave with a position, \(\mathbf{r}_w\), and a wave vector, \(\mathbf{k}\), to be described by the following set of equations:</p>
     <p>
         \[
         \begin{align}
@@ -28,7 +28,7 @@
             0 &= \partial_t\mathcal{N} + \nabla_\mathbf{r}\cdot(\mathbf{c}_g\mathcal{N}) + \nabla_\mathbf{k}\cdot(\dot{\mathbf{k}}\mathcal{N}) + S
         \end{align}
         \]
-        with the phase space wave action density \(\mathcal{N} = \mathcal{N}(\mathbf{r}, \mathbf{k}, t)\) and a dissipation terk \(S\). Meanwhile the mean flow is modulated through
+        with the phase space wave action density \(\mathcal{N} = \mathcal{N}(\mathbf{r}, \mathbf{k}, t)\) and a dissipation term, \(S\). At the same time the mean flow is modulated through
     </p>
         \[
         \begin{align}
@@ -38,6 +38,6 @@
                 + \frac{f}{g}\mathbf{e}_z\times\overline{\mathbf{u'}b'},
         \end{align}
         \]
-    <p>with the primed quantities being the wave perturbation fields. From the set of equations it is evident that the internal gravity waves can easily be described on the wave characteristics, that is along their path of propagation. At the same time the mean flow is typically simulated in a finite difference or finite volume senseon a Eulerian grid.</p>
+    <p>with the primed quantities being the wave perturbation fields (e.g. Wei et al. 2019). From the set of equations it is evident that the internal gravity waves can easily be described on the wave characteristics, that is along their path of propagation. At the same time the mean flow is typically simulated in a finite difference or finite volume sense on a Eulerian grid.</p>
     </body>
 </html>
