@@ -5,6 +5,8 @@
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	adapted sizing: 980 -> 900; 736 -> 600
 */
 
 html, body, div, span, applet, object,
@@ -1050,7 +1052,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.row {
 				display: flex;
@@ -1348,7 +1350,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			body, input, textarea, select {
 				font-size: 12pt;
@@ -1384,7 +1386,7 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 		h1 {
 			font-size: 1.75em;
@@ -1471,10 +1473,11 @@ input, select, textarea {
 		}
 		
 		table.cv-table td:first-child {
-			width: 20%;
+			width: 22%;
 			font-weight: 400;
 			color: black;
 			padding-bottom: 1em;
+			padding-right: 1em;
 		}
 
 /* Form */
@@ -1552,7 +1555,7 @@ input, select, textarea {
 			color: #aaa;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			header {
 				margin: 0 0 1em 0;
@@ -1684,7 +1687,7 @@ input, select, textarea {
 			padding: 0.5em 1.25em 0.5em 1.25em;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			input[type="button"],
 			input[type="submit"],
@@ -1733,7 +1736,7 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			ul.actions li {
 				display: block;
@@ -1939,7 +1942,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			#wrapper {
 				padding: 1em 0;
@@ -1986,7 +1989,7 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 600px) {
 
 				#main > .panel {
 					padding: 2em 1.5em 1.5em 1.5em;
@@ -2022,7 +2025,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 0;
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
-					width: 17em;
+					width: 14em;
 					height: 100%;
 				}
 
@@ -2049,10 +2052,10 @@ input, select, textarea {
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
 						object-fit: cover;
-						-moz-object-position: center;
-						-webkit-object-position: center;
-						-ms-object-position: center;
-						object-position: center;
+						-moz-object-position: top;
+						-webkit-object-position: top;
+						-ms-object-position: top;
+						object-position: top;
 					}
 
 					#main > .panel.intro .pic .arrow {
@@ -2117,7 +2120,7 @@ input, select, textarea {
 						margin: 0.25em 0 0 0;
 					}
 
-				@media screen and (max-width: 980px) {
+				@media screen and (max-width: 900px) {
 
 					#main > .panel.intro {
 						-moz-flex-direction: column;
@@ -2139,7 +2142,7 @@ input, select, textarea {
 
 				}
 
-				@media screen and (max-width: 736px) {
+				@media screen and (max-width: 600px) {
 
 					#main > .panel.intro .pic {
 						height: 20em;
@@ -2197,7 +2200,7 @@ input, select, textarea {
 					border-left: 0;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			#footer .copyright li {
 				padding-left: 0.5em;
